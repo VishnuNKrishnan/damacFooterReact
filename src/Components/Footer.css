@@ -1,0 +1,68 @@
+body, a, span, h1, h2, h3, h4, h5, h6, p, button{font-family:'Roboto', sans-serif !important;}
+
+
+
+.footer{width:100%;background-color:#333;background-image:linear-gradient(199deg,#666,#171615);color:#ffffff;}
+.footer .footerContainer{padding-top:40px;padding-bottom:80px;}
+.footerLogo{line-height:40px;}
+.socialLinks{color:#C3AD75;font-size:16px;font-weight:500;line-height:40px;}
+.socialLinks a{margin:0px 4px;width:20px;height:24px;}
+.subscribeOffers{color:#C3AD75;font-size:16px;font-weight:500;}
+.subscribeOffers .txt{line-height:40px;margin:0 15px 0 0;}
+.subscribeOffers .input-group{border:1px solid #ffffff;}
+.subscribeOffers .form-control{height:36px;border-radius:0;font-weight:300;font-size:16px;border:0;background-color:transparent;color:#ffffff;border:1px solid #ffffff;border-right:0px;}
+.form-control:focus{box-shadow:none;}
+.btn{min-height:36px;border-radius:0;background:#C3AD75;color:#fff;font-weight:300;font-size:14px;padding:5px 20px;border:1px solid #ffffff;border-left:0px;}
+
+.lgMenus{margin:40px 0 0 0;}
+.lgMenus span{font-family:'Roboto', sans-serif;font-weight:500;text-transform:uppercase;font-size:16px;}
+.lgMenus ul{margin:0;padding:0px;list-style:none;}
+.lgMenus ul li{margin:4px 0px 7px 0px;}
+.lgMenus ul li a{color:#ffffff;text-decoration:none;font-size:16px;font-weight:200;line-height:20px;}
+.lgMenus ul li a:hover{color:#C3AD75;}
+
+.xsMenus{border-bottom:1px solid #ffffff;}
+.footer .accordion{margin-top:30px;}
+.footer .accordion .accordion-item{background-color:transparent;border:0px;border-radius:0px;}
+.footer .accordion .accordion-item .accordion-button{padding:0px;background-color:transparent;color:#ffffff;border:0px;box-shadow:none;border-top-left-radius:0;border-top-right-radius:0;font-family:'Roboto', sans-serif;font-weight:500;text-transform:uppercase;font-size:16px;border-top:1px solid #ffffff;padding:20px 0px;}
+.footer .accordion .accordion-item .accordion-button::after{background-image:url('../images/plus-icon.svg');background-position:center;}
+.footer .accordion .accordion-item .accordion-button:not(.collapsed)::after{background-image:url('../images/minus-icon.svg');}
+.footer .accordion .accordion-item .accordion-body{padding:0px;}
+.footer .accordion .accordion-item .accordion-body ul{margin:-10px 0px 15px 15px;padding:0px;list-style:none;}
+.footer .accordion .accordion-item .accordion-body ul li{margin:4px 0px;}
+.footer .accordion .accordion-item .accordion-body ul li a{color:#ffffff;text-decoration:none;font-size:16px;font-weight:200;line-height:20px;}
+.footer .accordion .accordion-item .accordion-body ul li a:hover{color:#C3AD75;}
+
+.damacLivingSection{margin:50px 0 0 0;}
+.damacLivingLogo{margin:5px 15px 0 0;}
+.appIcons a:first-child{margin:0 15px 0 0;}
+.termsandpolicy{margin:10px 0;}
+.termsandpolicy a{text-decoration:none;color:#e3e3e3;font-weight:200;font-size:14px;margin:0 20px 0 0;}
+.termsandpolicy a:hover{color:#C3AD75;}
+.copyright{font-size:14px;font-weight:200;color:#ffffff;}
+
+/* Small devices (portrait tablets and large phones, 250px and up) */
+@media only screen and (min-width: 768px) {
+	.socialLinks{text-align:right;}
+}
+@media only screen and (min-width: 1200px) {
+	.socialLinks{text-align:left;}
+	.appIcons a img{max-width:180px;}
+}
+@media only screen and (max-width: 768px) {
+	.footer{padding:0px 10px;}
+	.footerLogo{line-height:normal;margin-bottom:15px;}
+	.socialLinks{line-height:normal;margin-bottom:15px;}
+	.socialLinks span{width:100%;display:block;line-height:20px;margin-bottom:5px;}
+	.subscribeOffers{line-height:normal;margin:0 0 15px 0;}
+	.subscribeOffers .txt{width:100%;line-height:normal;margin:0 0 5px 0;}
+	.damacLivingLogo{margin:0 0 15px 0;}
+	.appIcons{margin:0 0 20px 0;}
+	.appIcons a{display:block;}
+	.appIcons a:first-child{margin:0 0 10px 0;}
+}
+@media only screen and (max-width: 400px) {
+	.downloadApp b{display:block;}
+	.termsandpolicy a{margin:0 6px;font-size:12px;}
+	.copyright{font-size:12px;}
+}
